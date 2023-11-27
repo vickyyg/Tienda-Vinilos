@@ -1,0 +1,29 @@
+.logo{ 
+  margin-right: auto;
+  font-family: 'Glass Antiqua', cursive;
+  font-size: 20px;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .nav-list {
+    font-size: 20px;
+    display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+  }
+  

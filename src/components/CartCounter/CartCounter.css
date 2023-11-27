@@ -1,0 +1,22 @@
+/* Estilo base del botón */
+.btncount {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(173, 40, 40);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Estilo al pasar el ratón */
+  .btncount:hover {
+    background-color: darkred;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .prodCount{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

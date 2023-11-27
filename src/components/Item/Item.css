@@ -1,0 +1,47 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.cat{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+  width: calc(25% - 10px); /* Esto deja espacio entre las tarjetas */
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding-top: 5px;
+  overflow: hidden;
+  
+}
+
+.card-image {
+  width: auto;
+  height: auto;
+  padding-top: 5px;
+}
+
+.card-details {
+  padding: 5px;
+  background-color: #f8f8f8; /* Puedes personalizar el color de fondo según tus preferencias */
+}
+
+
+/* Media query para dispositivos más grandes */
+@media screen and (min-width: 768px) {
+  .card {
+    width: calc(33.33% - 10px); /* Tres tarjetas por fila en dispositivos medianos y grandes */
+  }
+}
+
+/* Media query para dispositivos más grandes */
+@media screen and (min-width: 1024px) {
+  .card {
+    width: calc(25% - 10px); /* Cuatro tarjetas por fila en dispositivos grandes */
+  }
+}
