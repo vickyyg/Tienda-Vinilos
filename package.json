@@ -1,6 +1,7 @@
 {
   "name": "nuevatienda",
   "private": true,
+  "homepage": "https://github.com/vickyyg/Tienda-Vinilos",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
