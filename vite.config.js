@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Ajusta esta ruta base según la ruta de tu página en GitHub Pages
 export default defineConfig({
-  plugins: [react()],
-})
+  base: 'https://vickyyg.github.io/Tienda-Vinilos/',
+  plugins: [react()]
+});
