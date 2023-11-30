@@ -1,15 +1,14 @@
 // Navbar.js
 import React from 'react';
-import './Nav.css'; 
-
+import { NavLink } from 'react-router-dom';
+import './Nav.css';
 
 const Navbar = () => {
- 
   return (
     <nav className="navbar">
       <ul className="nav-list">
-      <li>
-          <a className='logo'  href="#home">Vinyl Shop</a>
+        <li>
+          <NavLink to="/" className='logo'>Vinyl Shop</NavLink>
         </li>
         <li>
           <a href="#home">Home</a>
@@ -22,6 +21,9 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <NavLink to="/cart" style={{ fontSize: "30px" }}>🛒</NavLink>
         </li>
       </ul>
     </nav>
